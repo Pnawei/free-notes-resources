@@ -7,7 +7,7 @@
 ## 目录
 
 - [java框架资源](https://github.com/Pnawei/free-notes-resources/tree/main/Java/)
-- [博客文章资源]()
+- [博客文章资源](https://github.com/Pnawei/free-notes-resources/tree/main/)
 
 ## 贡献
 
