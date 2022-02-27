@@ -1,11 +1,13 @@
 # 💎 免费笔记大全
 
 > 一名忙里偷闲的程序员 **Pnawei** 在线记录，欢迎补充。
+> 我的博客 [月亮宇航员](https://lunarfun.cn/)
 
 
 ## 目录
 
-- [java框架资源](https://github.com/moonastronaut99/free-notes-resources/tree/awei/awei/java%E6%A1%86%E6%9E%B6%E8%B5%84%E6%BA%90)
+- [java框架资源](https://github.com/Pnawei/free-notes-resources/tree/main/Java/)
+- [博客文章资源]()
 
 ## 贡献
 
