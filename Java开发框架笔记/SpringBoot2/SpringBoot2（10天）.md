@@ -12,11 +12,7 @@ tags:
 
 # 引言
 
-![uTools_1644903040772.png](https://s2.loli.net/2022/02/16/HqrQ7g3iu2MZU4C.png)
-
-中文版：
-
-![uTools_1644903067687.png](https://s2.loli.net/2022/02/16/8UuIzK1LExgNlYn.png)
+官网地址：https://spring.io/    ，见首页的功能简介图。
 
 # 一、SpringBoot_简介
 
