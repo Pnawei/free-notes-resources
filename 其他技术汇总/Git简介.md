@@ -87,6 +87,17 @@ tags:
 | `git pull --rebase origin main`               | 远程仓库有 .md 文件，拉取到本地库                 |
 | `git push -u origin main`                     | 代码合并（第一次提交不需要 -u ）                  |
 
+### 3）将本地文件更新至 GitHub 仓库
+
+| 命令                         | 说明 |
+| ---------------------------- | ---- |
+| git status                   |      |
+| git add *                    |      |
+| git commit -m "你的提交注释" |      |
+| git push origin main         |      |
+
+> 注意：SSL链接失败需要执行命令：git config --global http.sslVerify "false"
+
 
 
 
