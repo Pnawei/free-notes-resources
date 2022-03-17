@@ -1,0 +1,98 @@
+﻿kaptcha.border
+验证码图片的边框，可以设置yes或者no
+默认值 yes
+
+kaptcha.border.color
+边框的颜色reg值。合法值 rgb，black，blue，white
+默认值 black
+
+kaptcha.border.thickness
+边框的宽度
+默认 1
+
+kaptcha.image.width
+图片的宽度
+默认200
+
+kaptcha.image.height
+图片的高度
+默认50
+
+kaptcha.producer.impl
+生成图片使用的类
+默认 com.google.code.kaptcha.impl.DefaultKaptcha
+
+
+kaptcha.textproducer.impl
+生成图片中文字的使用的类
+默认com.google.code.kaptcha.text.impl.DefaultTextCreator
+
+	
+kaptcha.textproducer.char.string
+验证码中使用的字符
+默认 abcde2345678gfymnpwx
+
+kaptcha.textproducer.char.length
+验证码中字符的数量
+默认 5
+
+kaptcha.textproducer.font.names
+验证码的字体
+默认 Arial, Courier
+
+kaptcha.textproducer.font.size
+字体的大小
+默认 40
+
+kaptcha.textproducer.font.color
+字体颜色 rgb值，颜色单词
+默认 black
+
+kaptcha.textproducer.char.space
+两个字符之间的间距
+默认 2
+
+kaptcha.noise.impl
+干扰线生成类
+默认 com.google.code.kaptcha.impl.DefaultNoise
+
+kaptcha.noise.color
+干扰线颜色
+默认 black
+
+kaptcha.obscurificator.impl
+The obscurificator implementation.
+默认 com.google.code.kaptcha.impl.WaterRipple
+
+kaptcha.background.impl
+背景颜色设置类
+默认 com.google.code.kaptcha.impl.DefaultBackground
+
+
+kaptcha.background.clear.from
+渐变颜色 左到右
+默认 light grey
+
+kaptcha.background.clear.to
+渐变颜色 右到左
+默认 white
+
+kaptcha.word.impl
+词语渲染器
+默认 com.google.code.kaptcha.text.impl.DefaultWordRenderer
+
+kaptcha.session.key
+在session中存储属性的名字
+默认 KAPTCHA_SESSION_KEY	
+
+<script type="text/javascript">
+    $(function(){
+        $("#code_img").click(function(){
+		//img标签的src属性值一改变浏览器就会重新向新的地址发请求
+		$(this).attr("src","code.jpg?t="+Math.random());
+	});
+    });
+</script>
+
+
+	
